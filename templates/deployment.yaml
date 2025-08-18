@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: check-my-ip
+spec:
+  replicas: {{ .Values.app.replicaCount }}
+  selector:
+    matchLabels:
+      app: check-my-ip
+  template:
+    metadata:
+      labels:
+        app: check-my-ip
+    spec:
+      containers:
+        - name: check-my-ip
+          image: {{ .Values.app.image }}
+          ports:
+            - containerPort: {{ .Values.app.service.port }}

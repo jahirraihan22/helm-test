@@ -1,0 +1,6 @@
+app:
+  image: "docker.io/jahirraihan/app-for-loadbalance-check:latest"
+  replicaCount: 1
+  service:
+    port: 80
+    targetPort: 80

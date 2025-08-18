@@ -1,0 +1,6 @@
+apiVersion: v2
+name: check-my-ip
+description: A Helm chart for check my ip app
+type: application
+version: 0.1.0
+appVersion: "1.0"
