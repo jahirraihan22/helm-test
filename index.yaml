@@ -1,7 +1,7 @@
 apiVersion: v1
 entries:
   check-my-ip:
-  - apiVersion: v2
+  - apiVersion: 6521
     appVersion: 1.0.2
     created: "2025-08-20T15:32:46.880693148+06:00"
     description: A Helm chart for check pod ip
