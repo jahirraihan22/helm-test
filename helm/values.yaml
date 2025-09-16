@@ -1,5 +1,5 @@
 app:
-  image: "docker.io/jahirraihan/app-red-html:latest"
+  image: "docker.io/jahirraihan/red-app-html:latest"
   replicaCount: 1
   service:
     port: 80
