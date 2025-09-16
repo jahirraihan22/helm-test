@@ -3,32 +3,54 @@ entries:
   check-my-ip:
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2025-08-20T15:32:46.880693148+06:00"
+    created: "2025-09-16T12:35:55.56205853+06:00"
     description: A Helm chart for check pod ip
-    digest: 2e4c161ec78aaae8f7d745be945023e18f07c8504f1e27fc262323374350b507
+    digest: 9729e49ff6d8ccd4d77552d437983987b871753b2ff528b44650083fe0cceaf9
     name: check-my-ip
     type: application
     urls:
-    - package/check-my-ip-1.0.2.tgz
+    - https://raw.githubusercontent.com/jahirraihan22/helm-test/master/package/check-my-ip-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-08-20T15:32:46.879907824+06:00"
+    created: "2025-09-16T12:35:55.559898392+06:00"
     description: A Helm chart for check pod ip
     digest: f13a85caad5623e7c389c76e653b53ea4570e9218dcadb364c4221280a15ac96
     name: check-my-ip
     type: application
     urls:
-    - package/check-my-ip-1.0.1.tgz
+    - https://raw.githubusercontent.com/jahirraihan22/helm-test/master/package/check-my-ip-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-20T15:32:46.879286719+06:00"
+    created: "2025-09-16T12:35:55.559298377+06:00"
     description: A Helm chart for check pod ip
     digest: c9382be2fd9a0462a832b9fa5a8bd1c29e57ad03661b498be52f7a7d3b574926
     name: check-my-ip
     type: application
     urls:
-    - package/check-my-ip-1.0.0.tgz
+    - https://raw.githubusercontent.com/jahirraihan22/helm-test/master/package/check-my-ip-1.0.0.tgz
     version: 1.0.0
-generated: "2025-08-20T15:32:46.877487597+06:00"
+  green-app:
+  - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2025-09-16T12:35:55.565324367+06:00"
+    description: A Helm chart for green  app
+    digest: 981769c2dac1588a8755fbc015a2a8b1163de25c242c70ba397784db14aa03aa
+    name: green-app
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/jahirraihan22/helm-test/master/package/green-app-1.0.2.tgz
+    version: 1.0.2
+  red-app:
+  - apiVersion: v2
+    appVersion: 1.0.3
+    created: "2025-09-16T12:35:55.570405405+06:00"
+    description: A Helm chart for red  app
+    digest: 9ad57e6ed0b509c36afe3c0e802cb476712541c1b207566dec75326e81daa79a
+    name: red-app
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/jahirraihan22/helm-test/master/package/red-app-1.0.3.tgz
+    version: 1.0.3
+generated: "2025-09-16T12:35:55.558316906+06:00"
