@@ -9,7 +9,7 @@ entries:
     name: check-my-ip
     type: application
     urls:
-    - https://raw.githubusercontent.com/jahirraihan22/helm-test/master/package/check-my-ip-1.0.1.tgz
+    - ./package/check-my-ip-1.0.1.tgz
     version: 1.0.1
   green-app:
   - apiVersion: v2
@@ -20,7 +20,7 @@ entries:
     name: green-app
     type: application
     urls:
-    - https://raw.githubusercontent.com/jahirraihan22/helm-test/master/package/green-app-1.0.2.tgz
+    - ./package/green-app-1.0.2.tgz
     version: 1.0.2
   red-app:
   - apiVersion: v2
@@ -31,6 +31,6 @@ entries:
     name: red-app
     type: application
     urls:
-    - package/red-app-1.0.3.tgz
+    - ./package/red-app-1.0.3.tgz
     version: 1.0.3
 generated: "2025-09-16T12:35:55.558316906+06:00"
