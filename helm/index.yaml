@@ -31,6 +31,6 @@ entries:
     name: red-app
     type: application
     urls:
-    - https://raw.githubusercontent.com/jahirraihan22/helm-test/master/package/red-app-1.0.3.tgz
+    - https://github.com/jahirraihan22/helm-test/raw/refs/heads/master/helm/package/check-my-ip-1.0.1.tgz
     version: 1.0.3
 generated: "2025-09-16T12:35:55.558316906+06:00"
